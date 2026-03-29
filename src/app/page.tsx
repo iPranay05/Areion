@@ -232,8 +232,8 @@ export default function Home() {
                   <div className={`absolute inset-0 bg-gradient-to-br ${project.color} to-transparent opacity-20`}></div>
                   
                   {/* Hover UI */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 bg-black/10 backdrop-blur-sm">
-                    <div className="kinetic-gradient px-8 py-3 rounded-full text-[10px] font-space-grotesk font-black uppercase tracking-widest text-white shadow-2xl scale-90 group-hover:scale-100 transition-all">
+                  <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 bg-black/5 hover:bg-black/20 backdrop-blur-[2px] hover:backdrop-blur-sm">
+                    <div className="kinetic-gradient px-8 py-3 rounded-full text-[10px] font-space-grotesk font-black uppercase tracking-widest text-white shadow-2xl transition-all">
                         LIVE PREVIEW
                     </div>
                   </div>
